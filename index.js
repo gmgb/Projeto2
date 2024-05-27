@@ -9,7 +9,7 @@ let juros2 = divida * 0.05;
 
 let juros_aplicado = (dias >= 15) && juros1;
 
-console.log("\nValor original da dívida: "+(divida));
+console.log("\nValor original da dívida: "+divida);
 console.log("Dias atrasados: "+dias);
 
 let total1 = Number(divida) + Number(juros1);
