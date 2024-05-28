@@ -4,6 +4,14 @@ console.log('Aplicação de juros:\n');
 let divida = entradaDados.question('Informe o valor devido: R$ ');
 let dias = entradaDados.question('Informe quantos dias se passaram desde o vencimento do boleto: ');
 
+if divida = 0{
+    console.log("O Valor da dívida deve ser maior que 0!);
+}
+else{
+    console.log(dias)
+};
+    
+
 let juros1 = divida * 0.10;
 let juros2 = divida * 0.05;
 
